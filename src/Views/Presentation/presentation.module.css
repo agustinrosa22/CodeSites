@@ -1,0 +1,18 @@
+.presentation {
+    margin-top: 70px;
+    display: flex;
+    align-items: center;
+  }
+  
+  .image {
+    margin-left: 25px;
+    width: 300px; 
+    margin-right: 20px; 
+  }
+  
+  .text {
+    padding: 50px;
+    color: #333; 
+    font-size: 16px; 
+    text-align: justify;
+}
