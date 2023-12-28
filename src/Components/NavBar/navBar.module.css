@@ -1,0 +1,15 @@
+.navBar {
+    display: flex;
+    align-items: center;
+    background-color: rgb(23, 25, 54);
+    padding: 10px 20px;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 1000;
+  }
+
+.title{
+color: aliceblue;
+margin: 0 auto;
+}
