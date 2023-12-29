@@ -1,5 +1,7 @@
 .presentation {
-    margin-top: 70px;
+    max-width: 1000px;
+    margin: 70px auto;
+    padding: 0 20px;
     display: flex;
     align-items: center;
   }
