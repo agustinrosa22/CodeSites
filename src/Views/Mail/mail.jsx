@@ -1,13 +1,12 @@
 import React from 'react';
 import styles from './mail.module.css'
-import defaultLogo from '../../Assets/internet.png'
 const Mail = () => {
     return (
         <div className={styles.formContent}>
 
-             <h2 className={styles.title} action="https://formsubmit.co/agustinrosa1234@gmail.com" method="POST" >Contactenos</h2>
+             <h2 className={styles.title} >Contactenos</h2>
 
-             <form className={styles.mailForm}>
+             <form className={styles.mailForm} action="https://formsubmit.co/agustinrosa1234@gmail.com" method="POST" >
                 <label className={styles.mailLabel} htmlFor="name">Nombre</label>
                 <input className={styles.inputText} type="text" name='name' id='name'/>
 
@@ -22,6 +21,7 @@ const Mail = () => {
 
                 <input className={styles.btn} type="submit" value="Enviar"/>
                 <input type="hidden" name="_next" value="http://localhost:3000/"/>
+                <input type="hidden" name="_captcha" value="false"/>
                 {/* poner la url correcta */}
              </form>
         </div>
