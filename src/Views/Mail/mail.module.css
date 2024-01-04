@@ -1,0 +1,64 @@
+.formContent{
+    background:  linear-gradient(
+        50deg,
+        rgba(40,42,55,1) 50%,
+        rgba(40,42,55,0.7)),
+        url(../../Assets/bg.jpg);
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        padding: 50px;
+        width: 1000px;
+        border-radius: 25px;
+    }
+
+    .title{
+        color: #F4F6F9;
+        font-size: 40px;
+        margin-bottom: 25px;
+    }
+    .mailForm{
+      display: flex;
+      flex-direction:  column;
+      width: 50%;  
+    }
+
+    .mailLabel{
+        font-size:  17px;
+        color:  #959AAB;
+        margin-bottom: 10px;
+    }
+
+    .inputText{
+        padding: 17px 14px;
+        background-color:  #333646;
+        border: 0;
+        font-size: 15px;
+        color: #F4F6F9;
+        margin-bottom: 20px;
+        border-radius: 10px;
+    }
+    .inputText:hover{
+        background-color:  #3b3e4e;
+    }
+
+    :focus {
+        outline: 1px solid #1E92E9;
+    }
+
+    .btn{
+        background-color: #1E92E9;
+        color: #F4F6F9;
+        padding: 15px 15px;
+        width: 150px;
+        align-self:  flex-end;
+        cursor: pointer;
+        border-radius: 25px;
+    }
+
+    .btn:hover {
+        background-color: #219BF9;
+    }
+    @media(max-wid991px) {
+        
+    }
