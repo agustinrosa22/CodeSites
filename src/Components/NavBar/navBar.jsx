@@ -6,15 +6,15 @@ import { Link } from 'react-router-dom';
 const NavBar = () => {
     return (
         <div className={styles.navBar}>
-        <img className={styles.logo} src={defaultLogo} alt="" />
-        <h2 className={styles.title}>CodeSites</h2>
+            <Link to="/"><img className={styles.logo} src={defaultLogo} alt=""/></Link>
+            <h2 className={styles.title}>CodeSites</h2>
 
-        <ul className= {styles.menu}>
-            <li><Link className= {styles.menu2} to="/">Inicio</Link></li>
-            <li><Link className= {styles.menu2} to="/servicios">Servicios</Link></li>
-            <li><Link className= {styles.menu2} to="/nosotros">Sobre Nosotros</Link></li>
-            <li><Link className= {styles.menu2} to="/contacto">Contacto</Link></li>
-        </ul>
+            <ul className={styles.menu}>
+                <li><Link className={styles.menu2} to="/">Inicio</Link></li>
+                <li><Link className={styles.menu2} to="/servicios">Servicios</Link></li>
+                <li><Link className={styles.menu2} to="/nosotros">Sobre Nosotros</Link></li>
+                <li><Link className={styles.menu2} to="/contacto">Contacto</Link></li>
+            </ul>
         </div>
     );
 };
