@@ -9,8 +9,11 @@
 
 .title {
   color: rgba(38, 41, 168, 0.877);
-  margin-left: 5px;
   font-size: xx-large;
+  margin: 0; /* Elimina los márgenes externos */
+  position: absolute; /* Cambia la posición a absoluta */
+  left: 50%; /* Coloca el título en el 50% del ancho del contenedor */
+  transform: translateX(-50%); /* Centra el título */
 }
 
 .logo {
