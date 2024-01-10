@@ -1,5 +1,4 @@
 .presentation {
-    max-width: 1000px;
     margin: 70px auto;
     padding: 0 20px;
     display: flex;
@@ -7,14 +6,38 @@
   }
   
   .image {
-    margin-left: 25px;
     width: 300px; 
     margin-right: 20px; 
+    margin: 0; /* Elimina los márgenes externos */
+    position: absolute; /* Cambia la posición a absoluta */
+    left: 50px; /* Coloca el título en el 50% del ancho del contenedor */
   }
   
   .text {
+    margin-top: 50px;
+    margin-left: 600px;
+    margin-right: 100px;
     padding: 50px;
     color: #333; 
     font-size: 16px; 
     text-align: justify;
+}
+.title{
+  font-size: 40px; 
+  margin: 0; 
+    position: absolute;
+    top: 120px; 
+    left: 50%; /* Coloca el título en el 50% del ancho del contenedor */
+  transform: translateX(-50%); /* Centra el título */
+    transform: translateX(-50%);
+}
+
+.secondTitle{
+  font-size: 20px; 
+  margin: 0; 
+    position: absolute;
+    top: 190px; 
+    left: 50%; /* Coloca el título en el 50% del ancho del contenedor */
+  transform: translateX(-50%); /* Centra el título */
+    transform: translateX(-50%);
 }
