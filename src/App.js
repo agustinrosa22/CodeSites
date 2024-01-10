@@ -4,7 +4,7 @@ import NavBar from './Components/NavBar/navBar';
 import Footer from './Components/Footer/footer';
 import Presentation from './Views/Presentation/presentation';
 import Mail from './Views/Mail/mail';
-import Servicios from './Components/Servicios/servicio.jsx'
+import Servicios from './Components/Services/services.jsx'
 import AboutUs from './Components/About/aboutUs';
 
 import { BrowserRouter, Route, Routes } from 'react-router-dom';
@@ -14,9 +14,9 @@ function App() {
       <NavBar />
       <Routes>
         <Route path="/" element={<Presentation />} />
-        <Route path="/contacto" element={<Mail />} />
-        <Route path="/nosotros" element={<AboutUs />} />
-        <Route path="/servicios" element={<Servicios />} />
+        <Route path="/contact" element={<Mail />} />
+        <Route path="/about-us" element={<AboutUs />} />
+        <Route path="/services" element={<Servicios />} />
       </Routes>
       <div>
       </div>
