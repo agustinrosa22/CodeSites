@@ -4,7 +4,7 @@ const Mail = () => {
     return (
         <div className={styles.formContent}>
 
-             <h2 className={styles.title} >Contactenos</h2>
+             <h2 className={styles.title} >Contáctenos</h2>
 
              <form className={styles.mailForm} action="https://formsubmit.co/agustinrosa1234@gmail.com" method="POST" >
                 <label className={styles.mailLabel} htmlFor="name">Nombre</label>

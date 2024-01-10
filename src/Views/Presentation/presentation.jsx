@@ -1,6 +1,7 @@
 import React from 'react';
 import styles from './presentation.module.css'
 import defaultLogo from '../../Assets/internet.png'
+
 const Presentation = () => {
     return (
         <div className={styles.presentation}>
